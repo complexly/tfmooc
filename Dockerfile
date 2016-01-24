@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow
+FROM b.gcr.io/tensorflow/tensorflow:latest
 MAINTAINER Vincent Vanhoucke <vanhoucke@google.com>
 RUN pip install scikit-learn
 ADD *.ipynb /notebooks/
